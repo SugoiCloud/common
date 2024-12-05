@@ -1,0 +1,26 @@
+{
+    "name": "sugoicloud/common",
+    "description": "Sugoi common package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Vevang",
+            "email": "benjamin@vevang.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SugoiCloud\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "suggest": {
+        "doctrine/inflector": "To use pluralisation features in the str(ing) helper"
+    },
+    "require": {}
+}
